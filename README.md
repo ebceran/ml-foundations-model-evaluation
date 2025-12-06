@@ -11,6 +11,7 @@ K-Fold Cross-Validation
 These concepts form the backbone of reliable, explainable, and production-ready ML models in real-world environments such as finance, credit risk, and fraud detection.
 
 
+ 
  1. Train / Validation / Test Split
 
 We divide the dataset into three parts to examine how well a model generalises:
@@ -24,6 +25,7 @@ Test Set → final evaluation on unseen data
 A well-generalised model will show similar accuracy across all three sets.
 
  
+ 
  2. Regularization (L1 & L2)
 
 We compare two types of regularization:
@@ -33,6 +35,7 @@ L2 (Ridge) → shrinks coefficients but does not eliminate them
 L1 (Lasso) → performs feature selection by setting some coefficients to zero
 
 This helps reduce overfitting and improves model stability.
+
 
 
 3. K-Fold Cross-Validation
@@ -45,6 +48,7 @@ We use:
 10-fold CV
 
 The mean accuracy across folds indicates the true generalisation capability of the model.
+
 
 
 ** Dataset
@@ -70,6 +74,7 @@ Commonly used for binary classification benchmarks
 
 
 
+
 * Technologies Used
 
 Python
@@ -81,6 +86,7 @@ Pandas
 scikit-learn
 
 Matplotlib (optional)
+
 
 
 Author
