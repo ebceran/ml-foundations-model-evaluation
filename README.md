@@ -59,10 +59,15 @@ Commonly used for binary classification benchmarks
 * What This Project Demonstrates
 
 ✔ How to properly split data for fair evaluation
+
 ✔ How regularization affects model complexity
+
 ✔ How L1 eliminates features and L2 smooths them
+
 ✔ How cross-validation increases confidence in model performance
+
 ✔ Why these techniques are essential in risk modelling and financial ML
+
 
 
 * Technologies Used
